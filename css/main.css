@@ -1,11 +1,11 @@
 html {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   background-color: #e6e7e8;
 
 }
 
 body {
-margin: 0;
+  margin: 0;
 }
 
 .img-flex {
@@ -18,7 +18,7 @@ nav {
 }
 
 nav li {
-  font-family: 'Alegreya Sans', sans-serif;
+  font-family: "Alegreya Sans", sans-serif;
 }
 
 a {
@@ -27,7 +27,7 @@ a {
 }
 
 a:checked {
-  color: #dd781b;
+  color: #dd610d;
 }
 
 .banner-box {
@@ -58,14 +58,25 @@ a:checked {
   border-radius: 10px;
   padding: .75em;
   border-width: 0;
+  font-family: "Alegreya Sans", sans-serif;
+}
+
+.btn:hover {
+  color: #0b1a38;
 }
 
 .btn-orange {
   background-color: #dd781b;
+  color: #0b1a38;
 }
 
 .cards-container {
   background-color: #dd781b;
+  color: #0b1a38;
+}
+
+.orange {
+  color: #dd781b;
 }
 
 @media only screen and (min-width: 25em) {
@@ -78,7 +89,6 @@ a:checked {
     max-height: 600px;
   }
 
-
 }
 
 @media only screen and (min-width: 30em) {
@@ -87,8 +97,8 @@ a:checked {
     max-height: 20em;
   }
 
-  .banner-text h2, {
-    padding-top:0;
+  .banner-text h2 {
+    padding-top: 0;
   }
 
 }
@@ -103,35 +113,42 @@ a:checked {
     max-height: 800px;
   }
 
+}
+
 @media only screen and (min-width: 60em) {
 
-nav li:last-child a {
-  background-color: #dd781b;
-  padding: .75em;
-  border-radius: 10px;
-}
+  a:hover {
+    background-color: #e6e7e8;
+    padding: .75em;
+    border-radius: 10px;
+    color: #0b1a38;
+  }
 
-a:hover {
-  background-color: #e6e7e8;
-  color: #364054;
-  padding: .75em;
-  border-radius: 10px;
+  nav li:last-child a {
+    background-color: #dd781b;
+    padding: .75em;
+    border-radius: 10px;
+    color: #0b1a38;
+  }
 
-}
+  .btn-orange:hover {
+    background-color: #e6e7e8;
+  }
 
-nav li:last-child a:hover {
-  background-color: #e6e7e8;
-  color: #364054;
-  padding: .75em;
-  border-radius: 10px;
-}
+  nav li:last-child a:hover {
+    background-color: #e6e7e8;
+    padding: .75em;
+    border-radius: 10px;
+  }
 
-.para-banner {
-  max-width: 300px;
-  text-align: left;
-}
+  .para-banner {
+    max-width: 300px;
+    text-align: left;
+  }
 
-.banner-text {
-  padding-left: 3em;
-  padding-bottom: 3em;
+  .banner-text {
+    padding-left: 3em;
+    padding-bottom: 3em;
+  }
+
 }
