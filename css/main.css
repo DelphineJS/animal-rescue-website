@@ -4,14 +4,7 @@ html {
 
 }
 
-body {
-  margin: 0;
-}
-
-.img-flex {
-  width: 100%;
-  display: block;
-}
+/* Navigation */
 
 nav {
   background-color: #364054;
@@ -29,6 +22,8 @@ a {
 a:checked {
   color: #dd610d;
 }
+
+/* Banner */
 
 .banner-box {
   max-height: 25em;
@@ -54,6 +49,8 @@ a:checked {
   background-image: linear-gradient(to top, rgba(0, 0, 0, .7) 40%, rgba(0, 0, 0, 0));
 }
 
+/* Buttons */
+
 .btn {
   border-radius: 10px;
   padding: .75em;
@@ -75,11 +72,16 @@ a:checked {
   color: #0b1a38;
 }
 
+/* Colors */
+
 .orange {
   color: #dd781b;
 }
 
 @media only screen and (min-width: 25em) {
+
+  /* Banner */
+
 
   .banner-box {
     max-height: 20em;
@@ -93,6 +95,8 @@ a:checked {
 
 @media only screen and (min-width: 30em) {
 
+  /* Banner */
+
   .banner-box {
     max-height: 20em;
   }
@@ -105,6 +109,8 @@ a:checked {
 
 @media only screen and (min-width: 30em) {
 
+  /* Banner */
+
   .banner-box {
     max-height: 30em;
   }
@@ -116,6 +122,8 @@ a:checked {
 }
 
 @media only screen and (min-width: 60em) {
+
+  /* Navigation */
 
   a:hover {
     background-color: #e6e7e8;
@@ -140,6 +148,8 @@ a:checked {
     padding: .75em;
     border-radius: 10px;
   }
+
+  /* Banner */
 
   .para-banner {
     max-width: 300px;
