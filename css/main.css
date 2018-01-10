@@ -19,10 +19,6 @@ li a {
   color: #e6e7e8;
 }
 
-a:checked {
-  color: #dd610d;
-}
-
 /* Banner */
 
 .banner-box {
@@ -113,7 +109,7 @@ a:checked {
 }
 
 .navy-bg {
-  background-color: #0b1a38
+  background-color: #0b1a38;
 }
 
 .heading {
@@ -136,17 +132,19 @@ a:checked {
 p a {
   color: #dd781b;
   text-decoration: underline;
-  font-weight: 700;
 }
 
 p a::before {
   color: #dd781b;
-  font-weight: bold;
   font-family: inherit;
 }
 
 p a:visited {
   color: #364054;
+}
+
+a:checked {
+  color: #dd610d;
 }
 
 /* Logos */
@@ -172,7 +170,6 @@ p a:visited {
   }
 
 }
-
 
 @media only screen and (min-width: 50em) {
   /* Banner */
@@ -252,6 +249,5 @@ p a:visited {
   .card {
     height: 700px;
   }
-
 
 }
