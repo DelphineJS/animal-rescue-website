@@ -124,13 +124,12 @@ li a {
 }
 
 .lt-grey-bg {
-    background-color: #cacaca;
+  background-color: #cacaca;
 }
 
 .dark-bg {
   background-color: #515254;
 }
-
 
 .heading {
   font-family: "Alegreya Sans", sans-serif;
@@ -174,7 +173,7 @@ nav a:hover {
   color: #0b1a38;
 }
 
-  /* Footer */
+/* Footer */
 
 .bottom-logo {
   position: absolute;
