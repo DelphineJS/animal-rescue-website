@@ -105,7 +105,7 @@ li a {
 }
 
 .navy {
-  color: #0b1a38
+  color: #0b1a38;
 }
 
 .navy-bg {
@@ -139,12 +139,12 @@ p a::before {
   font-family: inherit;
 }
 
-p a:visited {
-  color: #364054;
-}
-
 a:checked {
   color: #dd610d;
+}
+
+p a:visited {
+  color: #364054;
 }
 
 /* Logos */
