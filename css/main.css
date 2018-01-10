@@ -178,7 +178,7 @@ p a:visited {
   /* Banner */
 
   .banner-box {
-    max-height: 30em;
+    max-height: 27em;
   }
 
   .home-banner {
@@ -188,9 +188,13 @@ p a:visited {
   /* Cards */
 
   .card {
-    width: 29%;
+    width: 30%;
     margin-right: 1em;
     height: 590px;
+  }
+
+  .card:nth-last-of-type(1) {
+    margin-right: 0;
   }
 
 }
