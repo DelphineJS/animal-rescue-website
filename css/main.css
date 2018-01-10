@@ -142,7 +142,6 @@ li a {
   border-radius: 10px;
   max-width: 400px;
   margin-top: 3em;
-  margin-right: 1em
 }
 
 .cat-card {
@@ -244,6 +243,7 @@ nav a:hover {
   .card {
     width: 30%;
     height: 570px;
+    margin-right: 1em;
   }
 
   .card:nth-last-of-type(1) {
