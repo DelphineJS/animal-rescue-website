@@ -14,7 +14,7 @@ nav li {
   font-family: "Alegreya Sans", sans-serif;
 }
 
-a {
+li a {
   text-decoration: none;
   color: #e6e7e8;
 }
@@ -67,6 +67,16 @@ a:checked {
   color: #0b1a38;
 }
 
+.btn-grey {
+  background-color: #e6e7e8;
+  color: #364054;
+}
+
+.btn-grey:hover {
+  background-color: #dd781b;
+  color: #0b1a38;
+}
+
 .cards-container {
   background-color: #dd781b;
   color: #0b1a38;
@@ -78,24 +88,68 @@ a:checked {
   color: #dd781b;
 }
 
+.orange-bg {
+  color: #dd781b;
+}
+
+.blue {
+  color: #364054;
+}
+
+.blue-bg {
+  background-color: #364054;
+}
+
+.grey {
+  color: #e6e7e8;
+}
+
+.grey-bg {
+  background-color: #e6e7e8;
+}
+
+.navy {
+  color: #0b1a38
+}
+
+.navy-bg {
+  background-color: #0b1a38
+}
+
 .heading {
   font-family: "Alegreya Sans", sans-serif;
 }
-
 
 /* Cards */
 
 .card {
   background-color: #e6e7e8;
   border-radius: 10px;
-  max-width: 300px;
+  max-width: 400px;
   margin-top: 3em;
 }
-
 
 .card-img {
   border-radius: 10px 10px 0 0;
 }
+
+p a {
+  color: #dd781b;
+  text-decoration: underline;
+  font-weight: 700;
+}
+
+p a::before {
+  color: #dd781b;
+  font-weight: bold;
+  font-family: inherit;
+}
+
+p a:visited {
+  color: #364054;
+}
+
+/* Logos */
 
 @media only screen and (min-width: 25em) {
   /* Banner */
@@ -119,20 +173,6 @@ a:checked {
 
 }
 
-@media only screen and (min-width: 38em) {
-  /* Cards */
-
-  .card {
-    width: 29%;
-    margin-right: 1em;
-    height: 660px;
-  }
-
-  .card:nth-last-of-type(1) {
-    margin-right: 0;
-  }
-
-}
 
 @media only screen and (min-width: 50em) {
   /* Banner */
@@ -150,7 +190,7 @@ a:checked {
   .card {
     width: 29%;
     margin-right: 1em;
-    height: 600px;
+    height: 670px;
   }
 
 }
@@ -197,7 +237,17 @@ a:checked {
   /* Cards */
 
   .card {
-    height: 700px;
+    height: 740px;
   }
+
+}
+
+@media only screen and (min-width: 90em) {
+  /* Cards */
+
+  .card {
+    height: 800px;
+  }
+
 
 }
