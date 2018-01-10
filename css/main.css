@@ -190,7 +190,7 @@ p a:visited {
   .card {
     width: 30%;
     margin-right: 1em;
-    height: 590px;
+    height: 570px;
   }
 
   .card:nth-last-of-type(1) {
